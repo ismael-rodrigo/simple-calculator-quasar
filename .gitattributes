@@ -1,2 +1,2 @@
-src/routes/* linguist-vendored
-*.vue linguist-detectable=true
+
+*.js linguist-detectable=false
