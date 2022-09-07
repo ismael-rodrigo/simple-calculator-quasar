@@ -74,23 +74,25 @@ const lastKeyClicked = String(acumulator.value)[acumulator.value.length- 1]
 .keys-group {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: min-content;
   align-items: center;
-  grid-gap: 1px;
+  grid-gap: 2px;
+  height: 70vh;
 }
 
 .display{
   background-color: rgb(107, 107, 52);
   margin-bottom: 10px;
   border-radius: 3px;
+  height: 20vh;
 }
 
 .calc{
-  margin-top: 30px;
+  
   padding: 10px;
   border-radius: 4px;
   box-shadow: 1px 1px 2px 1px rgb(129, 129, 129);
-  max-width: min-content;
+  max-width: 100%;
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
   background-color: beige;
